@@ -1,4 +1,4 @@
-image: 'node:latest'
+image: "node:latest"
 stages:
   - install
   - test
@@ -19,10 +19,12 @@ install:
 test:
   stage: test
   script:
+    - echo "Starting to test"
     - yarn test
 build:
   stage: build
   script:
+    - echo "Starting to build"
     - yarn build
   artifacts:
     paths:
@@ -33,3 +35,5 @@ deploy:
     - master
   script:
     - echo "Starting to deploy to firebase"
+    - yarn global add firebase-tools
+    - firebase deploy --only hosting --token $FIREBASE_TOKEN
