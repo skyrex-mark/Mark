@@ -1,0 +1,35 @@
+image: 'node:latest'
+stages:
+  - install
+  - test
+  - build
+  - deploy
+install:
+  stage: install
+  script:
+    - echo "Starting to install node packages"
+    - yarn install
+  cache:
+    key: $CI_JOB_NAME-$CI_COMMIT_REF_SLUG
+    paths:
+      - node_modules
+  artifacts:
+    paths:
+      - node_modules
+test:
+  stage: test
+  script:
+    - yarn test
+build:
+  stage: build
+  script:
+    - yarn build
+  artifacts:
+    paths:
+      - build
+deploy:
+  stage: deploy
+  only:
+    - master
+  script:
+    - echo "Starting to deploy to firebase"
