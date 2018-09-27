@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "^2.0.0",
+    "react-scripts": "2.0.0",
     "semantic-ui-css": "^2.4.0",
     "semantic-ui-react": "^0.82.5"
   },
@@ -13,8 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=node",
-    "test:ci": "set CI=true && react-scripts test --env=jsdom",
-    "test:coverage": "set CI=true && react-scripts test --env=jsdom --coverage  --coverageDirectory=coverage",
+    "test:ci": "set CI=true && react-scripts test",
+    "test:coverage": "set CI=true && react-scripts test --coverage  --coverageDirectory=coverage",
     "eject": "react-scripts eject",
     "docz:dev": "docz dev",
     "docz:build": "docz build"
