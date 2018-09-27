@@ -13,15 +13,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "test:ci": "set CI=true && react-scripts test --env=jsdom",
-    "test:coverage": "set CI=true && react-scripts test --env=jsdom --coverage  --coverageDirectory=coverage",
+    "test:ci": "set CI=true && react-scripts test",
+    "test:coverage": "set CI=true && react-scripts test --coverage  --coverageDirectory=coverage",
     "eject": "react-scripts eject",
     "docz:dev": "docz dev",
     "docz:build": "docz build"
   },
   "devDependencies": {
     "docz": "^0.11.2",
-    "husky": "^1.0.0-rc.14",
+    "husky": "^1.0.0",
     "nyc": "^13.0.1",
     "prettier": "^1.14.3",
     "pretty-quick": "^1.7.0"
