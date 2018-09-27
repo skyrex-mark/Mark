@@ -5888,10 +5888,10 @@ humanize-string@^1.0.2:
   dependencies:
     decamelize "^1.0.0"
 
-husky@^1.0.0-rc.14:
-  version "1.0.0-rc.14"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-1.0.0-rc.14.tgz#e1380575fe4cf17e1ca98791395c1baafa8064c7"
-  integrity sha512-lxdl0+FrKhRXvhOW978oCHCiaXQAtwoR0hdaPY1CwKd+dgbtktepEvk/3DXwQ7L1YriuG/9HDc4AHlzQ0T6cNw==
+husky@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-1.0.0.tgz#308980544f20edb1b3e80680b29ae02f87dfa94c"
+  integrity sha512-BCJmbzfauxXwfxIZYETNS95zNxnwQgzTbVPs4DL0CbMmSDvuMEAcfEjGDFEb+mmPslvywKlXZroYAdNLRDLayQ==
   dependencies:
     cosmiconfig "^5.0.6"
     execa "^0.9.0"
@@ -10264,7 +10264,7 @@ react-router@^4.3.1:
     prop-types "^15.6.1"
     warning "^4.0.1"
 
-react-scripts@2.0.0:
+react-scripts@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-2.0.0.tgz#baed13bd7e1592f6df8fb19a186671cdb0a92018"
   integrity sha512-lZNltuWfgD44Z+pyMU9iiZiuYhF1zJvXmFnuI5tKwgGuy7NuQpdD/fiO1UEO4VgtHZwFO84VvQoZGGnbm+8+2w==
