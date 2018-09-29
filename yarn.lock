@@ -4097,14 +4097,14 @@ docz-core@^0.12.2:
     ws "^6.0.0"
     yargs "^12.0.2"
 
-docz-theme-default@^0.12.2:
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/docz-theme-default/-/docz-theme-default-0.12.2.tgz#be2d7e05ebd5a040ed618bb5556e168cd58aab56"
-  integrity sha512-7k9w4XVEpkcz/uClP39V9Y7RHawZZkhEseFOc6M19BI98PYxAdlDzVBBAa9KOHLVNDkZaWAU4HuNQAC5eftgMQ==
+docz-theme-default@^0.12.4:
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/docz-theme-default/-/docz-theme-default-0.12.4.tgz#aec2615d4ed311f88aecb889f0a3d9526adb19dc"
+  integrity sha512-Ejy/76dkDeJ3++DLjb7tLH5gU4LDBikngKt5bqCVhyuUuGkd4ly64cKpjMjdMmjwpuQPnsrzI2zHYFUC7qx3Ng==
   dependencies:
     codemirror "^5.40.0"
     copy-text-to-clipboard "^1.0.4"
-    docz "^0.12.2"
+    docz "^0.12.4"
     emotion "^9.2.9"
     emotion-theming "^9.2.9"
     facepaint "^1.2.1"
@@ -4156,10 +4156,10 @@ docz-utils@^0.12.2:
     unist-util-is "^2.1.2"
     unist-util-visit "^1.4.0"
 
-docz@^0.12.2:
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/docz/-/docz-0.12.2.tgz#50032155b0cfcc05eff2bc2e1408122f9df727bb"
-  integrity sha512-aMZA1MglWMG4aS4JL7JmP+jJwC5Q0jmwfpfBueiB/KnKcr7IWWYPXbDN94HMMhd1V+T4xEEzCE3pXhbbFAmMiw==
+docz@^0.12.4:
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/docz/-/docz-0.12.4.tgz#2773d39d279ec231d93a3b8f1bf708b860ba45e3"
+  integrity sha512-u7C6iqYdBC06/cWJAfx1u2TKui8oSFgOtPzSI/Kb5D7fF1pXfLbI2PCcEOgx81fh7FUsgW5/kG3juj3G5hfVaw==
   dependencies:
     "@mdx-js/tag" "^0.15.0"
     "@sindresorhus/slugify" "^0.3.0"
@@ -4168,7 +4168,7 @@ docz@^0.12.2:
     create-react-context "^0.2.3"
     deepmerge "^2.1.1"
     docz-core "^0.12.2"
-    docz-theme-default "^0.12.2"
+    docz-theme-default "^0.12.4"
     lodash "^4.17.11"
     prop-types "^15.6.2"
     react "^16.5.2"
@@ -6037,17 +6037,10 @@ humanize-string@^1.0.2:
   dependencies:
     decamelize "^1.0.0"
 
-<<<<<<< HEAD
 husky@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/husky/-/husky-1.0.1.tgz#749bc6b3a14bdc9cab73d8cc827b92fcd691fac6"
   integrity sha512-MxwLwwwgY7mqV4auSpGWKPTCkZ9RmsdGojQQBvRtr6vxnjSOyI5l/M58QdUz0vRKb0igTpbzBeoUsScx4XJwQg==
-=======
-husky@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-1.0.0.tgz#308980544f20edb1b3e80680b29ae02f87dfa94c"
-  integrity sha512-BCJmbzfauxXwfxIZYETNS95zNxnwQgzTbVPs4DL0CbMmSDvuMEAcfEjGDFEb+mmPslvywKlXZroYAdNLRDLayQ==
->>>>>>> master
   dependencies:
     cosmiconfig "^5.0.6"
     execa "^0.9.0"
