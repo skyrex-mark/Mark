@@ -1,0 +1,63 @@
+{
+  "config": {
+    "title": "Mark",
+    "description": "My awesome app using docz",
+    "themeConfig": {},
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "htmlContext": {
+      "head": {
+        "links": [
+          {
+            "rel": "stylesheet",
+            "href": "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css"
+          }
+        ]
+      }
+    }
+  },
+  "entries": {
+    "src/App.mdx": {
+      "name": "Hello world",
+      "id": "59c00ed3c8ba44717da26aa5f76edd30",
+      "filepath": "src/App.mdx",
+      "link": null,
+      "slug": "src-app",
+      "route": "/src-app",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "Hello world"
+        }
+      ]
+    },
+    "src/component/Splash/Splash.mdx": {
+      "name": "Splash",
+      "menu": "Components",
+      "id": "7e5fad8682b003ca73ff9d462aea401a",
+      "filepath": "src/component/Splash/Splash.mdx",
+      "link": null,
+      "slug": "src-component-splash-splash",
+      "route": "/src-component-splash-splash",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "splash",
+          "value": "Splash"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-case",
+          "value": "Basic case"
+        }
+      ]
+    }
+  }
+}

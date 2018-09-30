@@ -1,0 +1,30 @@
+{
+  "remainingRequest": "C:\\Users\\xiaof\\Project\\mark\\node_modules\\docz-core\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[[\"C:\\\\Users\\\\xiaof\\\\Project\\\\mark\\\\node_modules\\\\babel-preset-docz\\\\dist\\\\index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"C:\\\\Users\\\\xiaof\\\\Project\\\\mark\\\\node_modules\\\\docz-utils\\\\lib\\\\named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"C:\\\\Users\\\\xiaof\\\\Project\\\\mark\\\\node_modules\\\\react-hot-loader\\\\babel.js\"],\"cacheDirectory\":true,\"babelrc\":false}!C:\\Users\\xiaof\\Project\\mark\\.docz\\app\\imports.js",
+  "dependencies": [
+    {
+      "path": "C:\\Users\\xiaof\\Project\\mark\\.docz\\app\\imports.js",
+      "mtime": 1538329044927
+    },
+    {
+      "path": "C:\\Users\\xiaof\\Project\\mark\\node_modules\\docz-core\\node_modules\\cache-loader\\dist\\cjs.js",
+      "mtime": 1534110824816
+    },
+    {
+      "path": "C:\\Users\\xiaof\\Project\\mark\\node_modules\\docz-core\\node_modules\\babel-loader\\lib\\index.js",
+      "mtime": 1537445271713
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nexport var imports = {\n  'src/App.mdx': function srcAppMdx() {\n    return import(\n    /* webpackPrefetch: true, webpackChunkName: \"src-app\" */\n    'src/App.mdx');\n  },\n  'src/component/Splash/Splash.mdx': function srcComponentSplashSplashMdx() {\n    return import(\n    /* webpackPrefetch: true, webpackChunkName: \"src-component-splash-splash\" */\n    'src/component/Splash/Splash.mdx');\n  }\n};\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(imports, \"imports\", \"C:\\\\Users\\\\xiaof\\\\Project\\\\mark\\\\.docz\\\\app\\\\imports.js\");\n  leaveModule(module);\n})();\n\n;",
+    {
+      "version": 3,
+      "sources": ["C:\\Users\\xiaof\\Project\\mark\\.docz\\app\\imports.js"],
+      "names": ["imports"],
+      "mappings": ";;;;;;AAAA,OAAO,IAAMA,OAAO,GAAG;AACrB,iBAAe;AAAA,WACb;AAAO;AAAyD,iBAAhE,CADa;AAAA,GADM;AAGrB,qCAAmC;AAAA,WACjC;AAAO;AAA6E,qCAApF,CADiC;AAAA;AAHd,CAAhB;;;;;;;;;;;;0BAAMA,O",
+      "sourcesContent": [
+        "export const imports = {\n  'src/App.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"src-app\" */ 'src/App.mdx'),\n  'src/component/Splash/Splash.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"src-component-splash-splash\" */ 'src/component/Splash/Splash.mdx'),\n}\n"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Image, Segment } from "semantic-ui-react";
-const Navigation = () => (
+const Splash = () => (
   <Segment basic>
     <Image />
     <Header raised as="h1" padded="very" size="large" textAlign="center">
@@ -19,4 +19,4 @@ const Navigation = () => (
   </Segment>
 );
 
-export default Navigation;
+export default Splash;
