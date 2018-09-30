@@ -5,11 +5,12 @@
 
 # testing
 /coverage
-/docz
+
 # production
 /build
 
 # misc
+.docz
 .DS_Store
 .env.local
 .env.development.local
