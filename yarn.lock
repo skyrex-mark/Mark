@@ -4052,10 +4052,10 @@ doctrine@^2.0.0, doctrine@^2.1.0:
   dependencies:
     esutils "^2.0.2"
 
-docz-core@^0.12.2:
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/docz-core/-/docz-core-0.12.2.tgz#c153902e64591e34974305f65434cf0ab492238a"
-  integrity sha512-rOghDEzT9Xzk/W6vNv7yFfW5BeFLV4kUYJuYmxcvwo4osDhwRmROuJFmv8sA0bdAPu86glJG9wZ4vkiVHS8A4g==
+docz-core@^0.12.5:
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/docz-core/-/docz-core-0.12.5.tgz#6da41c330dbfd7758988005ff4039c5af8241df0"
+  integrity sha512-0Wp/AUKgWPjpwhg72prsG//LVMAQCGw+2UrFvL+9S22nSYEA84Rf5NSyR5eGScxd0x1WVArN+k1rREc+dnFxQA==
   dependencies:
     "@babel/core" "7.1.0"
     "@babel/polyfill" "7.0.0"
@@ -4122,14 +4122,14 @@ docz-core@^0.12.2:
     ws "^6.0.0"
     yargs "^12.0.2"
 
-docz-theme-default@^0.12.4:
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/docz-theme-default/-/docz-theme-default-0.12.4.tgz#aec2615d4ed311f88aecb889f0a3d9526adb19dc"
-  integrity sha512-Ejy/76dkDeJ3++DLjb7tLH5gU4LDBikngKt5bqCVhyuUuGkd4ly64cKpjMjdMmjwpuQPnsrzI2zHYFUC7qx3Ng==
+docz-theme-default@^0.12.5:
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/docz-theme-default/-/docz-theme-default-0.12.5.tgz#49ee983d23d950bbef0e19e8b99a51434ff18273"
+  integrity sha512-7gPWwaQm0LgTju2s+tOBicVPJ43ebdBKpBUxm4CqxCrmeHprvdxCzXk8fG7jhBKQDAh2qL5KVxR+ThYfKADTbA==
   dependencies:
     codemirror "^5.40.0"
     copy-text-to-clipboard "^1.0.4"
-    docz "^0.12.4"
+    docz "^0.12.5"
     emotion "^9.2.9"
     emotion-theming "^9.2.9"
     facepaint "^1.2.1"
@@ -4181,10 +4181,10 @@ docz-utils@^0.12.2:
     unist-util-is "^2.1.2"
     unist-util-visit "^1.4.0"
 
-docz@^0.12.4:
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/docz/-/docz-0.12.4.tgz#2773d39d279ec231d93a3b8f1bf708b860ba45e3"
-  integrity sha512-u7C6iqYdBC06/cWJAfx1u2TKui8oSFgOtPzSI/Kb5D7fF1pXfLbI2PCcEOgx81fh7FUsgW5/kG3juj3G5hfVaw==
+docz@^0.12.5:
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/docz/-/docz-0.12.5.tgz#5b1ada2e2d2b252b0d789c94c258f950323916ec"
+  integrity sha512-NmwUP4pC0fiqFpRz0tX99aW5Doyd6dcbKP4hXSro5ne5yRiJLT3In2PR/W2Pom0CA5tSk0jxpOieotAmpmc/Dw==
   dependencies:
     "@mdx-js/tag" "^0.15.0"
     "@sindresorhus/slugify" "^0.3.0"
@@ -4192,8 +4192,8 @@ docz@^0.12.4:
     capitalize "^1.0.0"
     create-react-context "^0.2.3"
     deepmerge "^2.1.1"
-    docz-core "^0.12.2"
-    docz-theme-default "^0.12.4"
+    docz-core "^0.12.5"
+    docz-theme-default "^0.12.5"
     lodash "^4.17.11"
     prop-types "^15.6.2"
     react "^16.5.2"
