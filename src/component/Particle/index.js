@@ -7,14 +7,14 @@ const Particle = () => (
     params={{
       particles: {
         number: {
-          value: 65
+          value: 100
         },
         line_linked: {
           distance: 200,
           shadow: {
             enable: true,
             color: "white",
-            blur: 100
+            blur: 10
           }
         },
         move: {
