@@ -7,10 +7,10 @@ const Particle = () => (
     params={{
       particles: {
         number: {
-          value: 100
+          value: 30
         },
         line_linked: {
-          distance: 200,
+          distance: 100,
           shadow: {
             enable: true,
             color: "white",
@@ -19,11 +19,11 @@ const Particle = () => (
         },
         move: {
           random: true,
-          speed: 5
+          speed: 15
         }
       }
     }}
-    style={styles}
+    style={styles.particle}
   />
 );
 
