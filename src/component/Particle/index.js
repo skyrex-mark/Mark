@@ -14,8 +14,7 @@ const Particle = () => (
           shadow: {
             enable: true,
             color: "white",
-            blur: 10,
-            opacity: 0
+            blur: 10
           }
         },
         move: {
