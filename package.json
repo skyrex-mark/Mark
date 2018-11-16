@@ -22,7 +22,7 @@
     "docz:build": "docz build"
   },
   "devDependencies": {
-    "docz": "^0.12.5",
+    "docz": "^0.12.12",
     "husky": "^1.1.2",
     "nyc": "^13.1.0",
     "prettier": "^1.14.3",
