@@ -8781,10 +8781,10 @@ loglevelnext@^1.0.1, loglevelnext@^1.0.2:
     es6-symbol "^3.1.1"
     object.assign "^4.1.0"
 
-logrocket@^0.6.17:
-  version "0.6.17"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-0.6.17.tgz#4a9b6deed53a9c798204dd30203ed0dadd89c41c"
-  integrity sha512-w6ljir3vO5ONHMOdl/yfpJhWGH8O+22sdtMbB58CA9eS/oKIE1+0c3r6Xq0sCIyizlYsRbo98lHl3VpTqteDFQ==
+logrocket@^0.6.21:
+  version "0.6.21"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-0.6.21.tgz#f19749a4bc2ea51821a0f5acb08e811ac3d3f314"
+  integrity sha512-fyCA8PfNQqeuQyedqLQLiw47ibG8476a7C/amuusHKmqPdGo5GQmFD4Ba9vKRFbbakz+MmUdBGbYrQgq9K4e+g==
 
 longest-streak@^1.0.0:
   version "1.0.0"
