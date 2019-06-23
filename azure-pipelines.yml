@@ -12,7 +12,7 @@ variables:
   azureSubscription: '8486dc59-90ee-4024-83c5-6e73ebc6999a'
 
   # Web app name
-  webAppName: ''
+  webAppName: 'react-mark'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
