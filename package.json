@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "logrocket": "^1.0.3",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-particles-js": "^3.0.1",
-    "react-scripts": "3.2.0",
+    "logrocket": "^1.0.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-particles-js": "^3.0.3",
+    "react-scripts": "3.4.1",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.1"
+    "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,9 +23,9 @@
   },
   "devDependencies": {
     "docz": "^2.3.1",
-    "husky": "^3.0.9",
+    "husky": "^4.2.5",
     "nyc": "^15.0.1",
-    "prettier": "^2.0.3",
+    "prettier": "^2.0.4",
     "pretty-quick": "^2.0.1"
   },
   "husky": {
