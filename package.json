@@ -25,7 +25,7 @@
     "docz": "^2.3.1",
     "husky": "^4.2.5",
     "nyc": "^15.0.1",
-    "prettier": "^2.0.4",
+    "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1"
   },
   "husky": {
