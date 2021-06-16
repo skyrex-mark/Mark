@@ -17,7 +17,7 @@ const Splash = () => (
       <Image
         style={styles.image}
         src={GithubLogo}
-        href="https://github.com/skyrex-mark"
+        href="https://github.com/XiaofengXie16"
       />
       <Image
         style={styles.image}
